@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:b="http://www.snapwork.ib.com/api/domain/common" targetNamespace="http://www.snapwork.ib.com/api/domain/common"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.1"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	jaxb:extensionBindingPrefixes="xjc" elementFormDefault="qualified">
+
+	<!-- To Get Master Details -->
+	<xs:element name="GetMasterRequest" type="b:GetMasterRequestType" />
+	<xs:element name="GetMasterResponse" type="b:GetMasterResponseType" />
+
+	<!-- To check session -->
+	<xs:element name="CheckSessionResponse" type="b:CheckSessionResponseType" />
+
+	<!-- To Get Master Details -->
+	<xs:complexType name="GetMasterRequestType">
+		<xs:sequence>
+			<xs:element name="type" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetMasterResponseType">
+		<xs:sequence>
+			<xs:element name="data" type="b:MasterDataType"></xs:element>
+			<xs:element name="responseMessage" type="xs:string"></xs:element>
+			<xs:element name="responseCode" type="xs:string"></xs:element>
+			<xs:element name="errorLog" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MasterDataType">
+		<xs:sequence>
+			<xs:element name="type" type="xs:string"></xs:element>
+			<xs:element name="masterDetails" type="b:MasterDetailType"
+				minOccurs="1" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MasterDetailType">
+		<xs:sequence>
+			<xs:element name="key" type="xs:string"></xs:element>
+			<xs:element name="title" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- To get banner image url from back-end system -->
+	<xs:complexType name="GetBannerImageRequestType">
+		<xs:sequence>
+			<xs:element name="isLoggedIn" type="xs:boolean"></xs:element>
+			<xs:element name="type" type="xs:string"></xs:element>
+			<xs:element name="sessionId" type="xs:string"></xs:element>
+			<xs:element name="websiteId" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetBannerImageResponseType">
+		<xs:sequence>
+			<xs:element name="data" type="b:GetBannerImageDataType"></xs:element>
+			<xs:element name="responseMessage" type="xs:string"></xs:element>
+			<xs:element name="responseCode" type="xs:string"></xs:element>
+			<xs:element name="errorLog" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetBannerImageDataType">
+		<xs:sequence>
+			<xs:element name="sessionId" type="xs:string"></xs:element>
+			<xs:element name="bannerInformations" type="b:GetBannerInformationType"
+				minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="GetBannerInformationType">
+		<xs:sequence>
+			<xs:element name="imgUrl" type="xs:string"></xs:element>
+			<xs:element name="merchantName" type="xs:string"></xs:element>
+			<xs:element name="offerCategory" type="xs:string"></xs:element>
+			<xs:element name="offerDescription" type="xs:string"></xs:element>
+			<xs:element name="redirectUrl" type="xs:string"></xs:element>
+			<xs:element name="treatmentCode" type="xs:string"></xs:element>
+			<xs:element name="imgUrlMobile" type="xs:string"></xs:element>
+			<xs:element name="redirectionType" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- To confirm backend when banner is clicked or reject -->
+	<xs:complexType name="SubmitBannerAcceptRejectRequestType">
+		<xs:sequence>
+			<xs:element name="isLoggedIn" type="xs:boolean"></xs:element>
+			<xs:element name="sessionId" type="xs:string"></xs:element>
+			<xs:element name="treatmentCode" type="xs:string"></xs:element>
+			<xs:element name="type" type="xs:string"></xs:element>
+			<xs:element name="merchantName" type="xs:string"></xs:element>
+			<xs:element name="affiliateId" type="xs:string"></xs:element>
+			<xs:element name="websiteId" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SubmitBannerAcceptRejectResponseType">
+		<xs:sequence>
+			<xs:element name="data" type="b:LeadDataType"></xs:element>
+			<xs:element name="responseMessage" type="xs:string"></xs:element>
+			<xs:element name="responseCode" type="xs:string"></xs:element>
+			<xs:element name="errorLog" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- To close UNICA session -->
+	<xs:complexType name="EndSessionRequestType">
+		<xs:sequence>
+			<xs:element name="sessionId" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EndSessionResponseType">
+		<xs:sequence>
+			<xs:element name="data" type="b:MessageDataType"></xs:element>
+			<xs:element name="responseMessage" type="xs:string"></xs:element>
+			<xs:element name="responseCode" type="xs:string"></xs:element>
+			<xs:element name="errorLog" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="LeadDataType">
+		<xs:sequence>
+			<xs:element name="message" type="xs:string"></xs:element>
+			<xs:element name="parameter" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MessageDataType">
+		<xs:sequence>
+			<xs:element name="message" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- To check session -->
+	<xs:complexType name="CheckSessionResponseType">
+		<xs:sequence>
+			<xs:element name="data" type="xs:string"></xs:element>
+			<xs:element name="responseMessage" type="xs:string"></xs:element>
+			<xs:element name="responseCode" type="xs:string"></xs:element>
+			<xs:element name="errorLog" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

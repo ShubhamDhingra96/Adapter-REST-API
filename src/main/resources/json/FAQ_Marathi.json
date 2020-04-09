@@ -1,0 +1,349 @@
+{
+	"faqList": [{
+			"category": "Application Related",
+			"list": [
+
+				{
+
+					"question": "Am I eligible for an Indiabulls Personal loan?",
+
+					"answer": "All Indian resident salaried individuals are eligible for an IVL Finance Personal loan."
+
+				},
+
+				{
+
+					"question": "On what criteria will the loan be sanctioned to me?",
+
+					"answer": "All loans are sanctioned on the basis of the internal policies of IVL Finance Ltd."
+
+				},
+
+				{
+
+					"question": "When will I get the IVL Finance Personal Loan?",
+
+					"answer": "All applications originating from the Mobile application are instantly approved and disbursed under 3 minutes, provided the applicant meets the eligibility and sanctioning criteria. Please keep your Aadhaar card, PAN card and salary account netbanking credentials ready so as to obtain an instant loan facility.In case we require additional details, our call centre executives will call you back within 2 days and we will process your loan application."
+
+
+
+				},
+
+				{
+
+					"question": "What are the securities/ collaterals/ guarantors I need to provide?",
+
+					"answer": "As per IVL Finance policy, no security, collateral or guarantors are required for obtaining an IVL Finance Personal Loan."
+
+				},
+
+				{
+
+					"question": "What is the maximum loan amount I can avail?",
+
+					"answer": "Maximum loan amount of INR 15L can be availed via the Mobile application. If you are interested in applying for a loan greater than INR 5L, please get in touch with our Customer care center 1860 419 3333 or write to us at service_dhani@indiabulls.com."
+
+
+
+				},
+
+				{
+
+					"question": "How can I estimate my EMI?",
+
+					"answer": "You can use the handy EMI calculator on the mobile application to estimate your EMI amount."
+
+				},
+
+				{
+
+					"question": "Where can I apply for an IVL Finance Personal loan?",
+
+					"answer": "You can apply for an IVL Finance Personal loan via the mobile application and avail of an instant disbursement within 3 minutes, based on your eligibility.You may also contact us through our Customer care center - 1860 419 3333 or write to us at service_dhani@indiabulls.com and our Executives will get in touch with you within X working days to process your application."
+
+				},
+
+				{
+
+					"question": "What do I need to apply for the IVL Finance Personal loan?",
+
+					"answer": "For instant disbursement via mobile application, please keep the following information/ documents handy:-Aadhaar Card number,-PAN number,-Salary account netbanking credentials,If you don't have any of the above mentioned documents and would like to apply for the IVL Finance Personal loan, please get in touch with our Customer care center 1860 419 3333 or write to us at service_dhani@indiabulls.com."
+				},
+
+				{
+
+					"question": "How can I check the status of my loan application?",
+
+					"answer": "If you are applying for the loan via the mobile application, you can view the progress of your loan application in the loan  progress bar on your screen. In case you have applied via the offline process, you can check your loan status by contacting us through our Customer care center 1860 419 3333 or writing to us at How can I check the status of the application."
+
+				},
+
+				{
+
+					"question": "How secure is the information provided by me?",
+
+					"answer": "The security and confidentiality of your personal and financial information is of utmost importance to Indiabulls.Indiabulls uses Secure Socket Layers (SSL) data encryption to transmit data between you and our systems over the internet to protect it from unauthorized individuals. This encryption is done using 128-bit RC4 encryption. In addition your credit/debit card information is processed over secure gateways that are certified for PCI-DSS security standards.Our mobile apps are built by following leading secure coding principles to protect your data from unauthorized access and tampering.Our IT systems employs leading security practices and controls to protect data from hackers and fraudsters. To protect data stored on our systems and to prevent unauthorised access, we employ firewalls wherever appropriate. Additionally our systems are monitored on a continuous basis using latest cyber security technologies to detect and prevent cyber-attacks"
+
+				},
+
+				{
+
+					"question": "Can I have a co-applicant for my loan?",
+
+					"answer": "As per IVL Finance norms, there is no requirement for a co-applicant to apply for the IVL Finance Personal loan."
+
+				}
+
+			]
+		},
+
+		{
+			"category": "Loan Product Related",
+			"list": [
+
+
+				{
+
+					"question": "What are my loan tenure options?",
+
+					"answer": "You can select a Loan tenure from one of the following options:-12 months,-24 months,-36 months,-48 months."
+
+
+
+				},
+
+
+
+				{
+
+					"question": "What is an EMI?",
+
+					"answer": "An EMI stands for Equated Monthly Installment. EMI provides you the ease and benefit of paying back the Personal Loan amount in smaller convenient options. This installment consists of both the principal and interest components. You repay the loan in Equated Monthly Installments (EMIs) comprising principal and interest. Repayment by way of EMI commences from the month following the month in which you take full disbursement."
+
+				},
+
+
+
+				{
+
+					"question": "What is Pre EMI?",
+
+					"answer": "Pre EMI is the Interest paid on the Loan Amount availed in part and before the start of the actual EMI. The EMI doesn't get started till the loan is disbursed in full and hence interest is charged on partially disbursed loan amount only which is Pre EMI."
+
+				},
+
+                {
+
+					"question": "What is broken period?",
+
+					"answer": "In the event that the first due date for payment of EMI is after a period of 30 days from the date of disbursement of the loan amount, the additional number of days beyond the 30 day period is known as the broken period. An upfront interest is deducted for this broken period from the loan amount at the time of disbursement."
+
+				},
+
+				{
+
+					"question": "What are the types of rate of interests offered?",
+
+					"answer": "A Fixed rate of interest will be offered for all applications."
+
+				},
+
+
+
+				{
+
+					"question": "How is the interest charged/ calculated?",
+
+					"answer": "Interest is calculated at monthly rests using a reducing balance method. We consider a 30 day month and 365 days for interest calculations."
+
+				},
+
+				{
+
+					"question": "When is my next EMI due? How can I view my EMI Status?",
+
+					"answer": "You may login to our  Application -> Existing User Login-> Home Page-> Click on the desired Loan Account Card to view next EMI due date and EMI status."
+
+				},
+
+				{
+
+					"question": "What are the modes of paying the EMI?",
+
+					"answer": "We offer you a range of payment modes:ECS/NEFT/RTGS/ONLINE."
+
+				},
+
+				{
+
+					"question": "What would be my installment cycle date?",
+
+					"answer": "Your installment cycle date will be the due date selected by you during your loan sanction process. We currently offer 3 due dates - 2nd & 5th of every month."
+
+				},
+
+				{
+
+					"question": "Can I make part pre-payment before the 1st EMI?",
+
+					"answer": "As per IVL Finance policy, part pre-payment is not allowed before the 1st EMI."
+				},
+
+				{
+					"question": "What are the various kind of loans extended?",
+
+					"answer": "We currently offer only unsecured Personal Loans and Business Installment loans.If you are interested in applying for a Business installment loan, please get in touch with our Customer care center 1860 419 3333 or write to us at service_dhani@indiabulls.com."
+
+				},
+
+				{
+					"question": "What is a Monthly Reducing Balance?",
+
+					"answer": "An Equated Monthly Installment (EMI) has 2 components: interest and principal. When the interest is calculated at monthly rests using reducing balance method, the principal on which the interest is charged goes down every month. This results in significant savings for the customer over the tenure of the loan."
+
+				},
+
+				{
+
+					"question": "What is an amortization schedule?",
+
+					"answer": "An amortization schedule is a table giving the reduction of your loan amount by monthly installments. The amortization schedule gives the break-up of every EMI towards repayment of interest and outstanding principal of your loan."
+
+				},
+
+				{
+					"question": "Can I foreclose or prepay my loan?",
+
+					"answer": "As per IVL Finance policy, you will be allowed to foreclose your loan. Applicable foreclosure/ prepayment charges will accordingly be debited from your account, as per the charges matrix as applicable to your IVL Finance Personal Loan."
+				}
+
+			]
+		},
+
+		{
+			"category": "Servicing Related",
+			"list": [
+
+				{
+
+					"question": "How do I change my EMI due date?",
+
+					"answer": "As per IVL Finance policy, the EMI date cannot be changed post disbursement."
+
+				},
+
+				{
+
+					"question": "Why does my digital signature appear as 'Signature Not Verified' in Adobe Acrobat Reader after e-Signing a document?",
+
+					"answer": "This may happen if the trusted root certificate list in your Adobe Acrobat Reader is not up to date. For this, please install the latest version of Adobe Acrobat Reader by downloading it from https://get[dot]adobe[dot]com/uk/reader/. Now open Adobe Acrobat Reader. Open Preferences dialog box by clicking 'Preferences' menu item in 'Edit' menu. Select 'Trust Manager' from 'Categories' list displayed on the left hand side. You will see 'Automatic Adobe Approved Trusted Certificates Updates' section on the right hand side in the Preferences box. Check 'Load trusted root certificates from an Adobe server' check box and click 'Update Now' button. This will update your trusted root certificate list. Now, restart Adobe Acrobat Reader and open your digitally signed document. Your digital signature should now appear as valid."
+				},
+
+				{
+
+					"question": "How can I get my statements for re-payment schedule / interest certificates / statement of accounts / no objection certificate?",
+
+					"answer": "You may login to our  Application -> Existing User Login-> Home Page-> Click Services icon -> Click on Request Statement -> Select Statement Type to request for a specific statement.The statement will be mailed to your registered e-mail id."
+				},
+
+				{
+
+					"question": "How will I get to know my complete loan details?",
+
+					"answer": "You may login to our  Application -> Existing User Login-> Home Page-> Click on the desired Loan Account Card to view all your details."
+				},
+
+				{
+
+					"question": "How do I change my personal details such as my address/mobile number/ bank account number? Do I need to send any proof?",
+
+					"answer": "Correspondence address:You may update your correspondence address by emailing us your new address from your registered email ID along  with a copy of your valid address proof <insert list> and your Loan Account Number.Mobile number:You may login to our  Application -> Existing User Login-> Home Page-> Click Services icon -> Click on Change Mobile Number.Bank account number :To safeguard your interest, there is no provision to update a bank account number.Alternatively, you can contact us on our call centre number 1860 419 3333 or write to us at service_dhani@indiabulls.com to request for a change in personal details."
+				},
+
+				{
+
+					"question": "How can I make my overdue payment?",
+
+					"answer": "You may login to our  Application -> Existing User Login-> Home Page-> Click Services icon -> Click on Payments -> Enter Loan Account Number-> Make Payment Alternatively, you can contact us on our call centre number <insert toll free no.> or write to us at <insert customer care e-mail address> and quote your Loan Account Number to receive assistance."
+				}
+
+			]
+		}, {
+			"category": "Grievance Related",
+			"list": [
+
+				{
+
+					"question": "Why have I received 20% of the loan amount I requested? How can I obtain the full amount?",
+
+					"answer": "You would have received 20% of the sanctioned loan amount in case we require address proof in addition to Aadhaar or you were unable to provide us with an ENACH Mandate.The remaining amount will be disbursed to you on submission of valid Address proof or NACH Mandate. Our service executives will get in touch with you to tell you the way forward."
+				},
+
+				{
+
+					"question": "How can I apply for the loan if I don’t have an Aadhaar card?",
+
+					"answer": "An Aadhaar card is a mandatory document to apply via the mobile app. If you don't have an Aadhaar card, we request you to fill in the lead capture form on the mobile application.Alternatively, you can contact us on our call centre number 1860 419 3333 or write to us at info@indiabulls.com and quote your Loan Account Number to receive assistance."
+				},
+
+				{
+
+					"question": "I am a self-employed customer. Can I still avail the Personal loan?",
+
+					"answer": "Currently, IVL Finance does not offer personal loan products to self-employed customers."
+
+				},
+
+				{
+
+					"question": "Can I receive the disbursement amount to a different bank account from my salary account?",
+
+					"answer": "We will only disburse your loan amount to your verified salary account. To safeguard your interests, we do not disburse loans to unverified accounts."
+
+				},
+
+				{
+
+					"question": "I don’t want to provide a selfie. What do I do?",
+
+					"answer": "As per IVL Finance policy, a photograph is a mandatory requirement for processing of your e-KYC."
+
+				},
+
+				{
+
+					"question": "My netbanking access has been temporary disabled (Perfios failure). What do I do?",
+
+					"answer": "To safeguard your interests, we require you to verify your account through netbanking. In case you are unable to log in to your netbanking account, please contact your bank and resume your application once you regain access. If you are unable to provide netbanking details, we will be unable to provide you with an instant disbursement. You can opt out of the Mobile app application by selecting the 'I do not have access to my netbanking' option after which our Executives will get in touch with you within <X> working days to process your application."
+
+				},
+
+				{
+
+					"question": "I haven’t received the deliverables (loan agreement, sanction letter, welcome letter). What do I do?",
+
+					"answer": "You should receive your documents on your registered email address at the time of loan disbursement.If you haven't received them please contact us on our call centre number 1860 419 3333 or write to us at info@indiabulls.com."
+				}
+
+			]
+		},
+
+		{
+			"category": "General Queries",
+			"list": [
+
+				{
+					"question": "How can I contact Indiabulls?",
+
+					"answer": "<Link to Contact us screen on app> You may also contact us through our Customer Care center - 1860 419 3333 or write to us at info@indiabulls.com and our Executives will get in touch with you within <X> working days to process your application."
+				},
+
+				{
+					"question": "How do I update my CIBIL?",
+
+					"answer": "Post closure of your loan, your CIBIL Report will be updated by us by the end of the month following closure.In case of any discrepancy, you can contact us on our call centre number 1860 419 3333 or write to us at info@indiabulls.com."
+				}
+			]
+		}
+	]
+}
